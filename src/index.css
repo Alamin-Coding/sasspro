@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@utility container {
+    margin-inline: auto;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+@theme {
+    --color-secondaryGreen: #0d554c;
+    --color-primarySkyblue: #2c83bb;
+    --color-textBlue: #112f42;
+    --color-textWhite: #ffffff;
+    --font-inter: "Inter", sans-serif;
+    --font-raleway: "Raleway", sans-serif;
+}
+
+@utility wrapper {
+    @apply w-full flex flex-col items-center justify-center px-5 mx-auto;
+}
+
+@utility sectionContent {
+    @apply max-w-[1170px] w-full;
+}
+
+@utility navLink {
+    @apply text-textWhite font-inter text-[16px] tracking-[1px] font-medium hover:text-white/60 transition-all duration-100;
+}
