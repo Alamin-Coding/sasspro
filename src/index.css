@@ -9,6 +9,7 @@
 }
 
 @theme {
+    --color-primary: #2C83BB;
     --color-secondaryGreen: #0d554c;
     --color-primarySkyblue: #2c83bb;
     --color-textBlue: #112f42;
