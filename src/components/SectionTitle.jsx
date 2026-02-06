@@ -7,8 +7,6 @@ const SectionTitle = ({align="center", title, description}) => {
         return "0 auto"
     }
 
-    console.log(postion())
-
     const textAligns = {
         textAlign: align,
         margin: postion()

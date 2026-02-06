@@ -2,6 +2,7 @@ import Banner from "./components/Banner"
 import EngageSection from "./components/EngageSection"
 import Header from "./components/Header"
 import Industries from "./components/Industries"
+import PriceSection from "./components/PriceSection"
 import ProductWork from "./components/ProductWork"
 import RecentArticles from "./components/RecentArticles"
 import WeWorkSection from "./components/WeWorkSection"
@@ -15,6 +16,7 @@ const App = () => {
       <ProductWork/>
       <EngageSection/>
       <WeWorkSection/>
+      <PriceSection/>
       <RecentArticles />
     </div>
   )
